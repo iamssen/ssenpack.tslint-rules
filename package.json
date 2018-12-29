@@ -1,25 +1,25 @@
 {
   "name": "ssenpack.tslint-rules",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "SSen's tslint rules.",
   "main": "tslint-config.json",
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rm -rf rules/*",
     "test": "jest",
-    "testFiles": "tslint 'testFiles/**/*.ts'"
+    "test-files": "tslint 'testFiles/**/*.ts'"
   },
   "author": "Lee Seoyeon",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^23.3.3",
-    "@types/node": "^10.11.4",
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.18",
     "jest": "^23.6.0",
     "mobx": "^4.5.0",
-    "mobx-react": "^5.2.8",
-    "ts-jest": "^23.10.4",
-    "tslint": "^5.11.0",
-    "typescript": "^3.1.1"
+    "mobx-react": "^5.4.3",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
   },
   "jest": {
     "transform": {
@@ -40,5 +40,11 @@
       "src/_library"
     ],
     "coverageDirectory": "coverage"
+  },
+  "dependencies": {
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-consistent-codestyle": "^1.14.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^3.6.0"
   }
 }

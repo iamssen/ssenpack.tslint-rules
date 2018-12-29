@@ -1,3 +1,6 @@
 {
-  "rulesDirectory": "./rules"
+  "rulesDirectory": "./rules",
+  "rules": {
+    "no-mobx-default-observable": true
+  }
 }

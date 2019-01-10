@@ -20,6 +20,7 @@
       true,
       "allow-empty-catch"
     ],
+    "no-string-literal": false,
     "no-for-in-array": false,
     "no-console": false,
     "array-type": [

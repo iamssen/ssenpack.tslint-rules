@@ -1,6 +1,6 @@
 {
   "name": "tslint-ssen-rules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SSen's tslint rules.",
   "main": "tslint-config.json",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "tslint-ssen-rules",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "SSen's tslint rules.",
   "main": "tslint-config.json",
   "scripts": {
@@ -15,7 +15,8 @@
     "tslint-config-prettier": "^1.17.0",
     "tslint-consistent-codestyle": "^1.15.0",
     "tslint-eslint-rules": "^5.4.0",
-    "tslint-react": "^3.6.0"
+    "tslint-react": "^3.6.0",
+    "tslint-react-hooks": "^1.1.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.13",

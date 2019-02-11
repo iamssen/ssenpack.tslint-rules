@@ -3,7 +3,8 @@
     "tslint-consistent-codestyle",
     "tslint-react",
     "tslint-eslint-rules",
-    "tslint-config-prettier"
+    "tslint-config-prettier",
+    "tslint-react-hooks"
   ],
   "rules": {
     "class-name": true,
@@ -113,6 +114,7 @@
       "check-typecast",
       "check-type-operator",
       "check-preblock"
-    ]
+    ],
+    "react-hooks-nesting": "error"
   }
 }

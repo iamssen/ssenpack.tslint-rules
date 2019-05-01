@@ -8,6 +8,13 @@
     "no-trailing-whitespace": false,
     "no-inferrable-types": false,
     "no-reference": false,
+    "typedef": [
+      true,
+      "parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration"
+    ],
     "no-any": true,
     "no-duplicate-super": true,
     "no-empty": [

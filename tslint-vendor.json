@@ -4,7 +4,8 @@
     "tslint-react",
     "tslint-eslint-rules",
     "tslint-config-prettier",
-    "tslint-react-hooks"
+    "tslint-react-hooks",
+    "tslint-react-a11y"
   ],
   "rules": {
     "class-name": true,
